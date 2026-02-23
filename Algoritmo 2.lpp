@@ -1,0 +1,11 @@
+Real base, altura, area
+inicio 
+	Escriba "escriba la base: "
+	lea base
+	Escriba "escriba la altura: "
+	lea altura
+	area <- (base*altura)/2
+	Escriba "el area es: ",area
+fin
+	
+	
