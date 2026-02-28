@@ -1,0 +1,11 @@
+//Algoritmo Area_Circulo
+	
+	Real radio, area 
+inicio	
+	Escriba "Ingrese el radio:"
+	Lea radio
+	
+	area <- 3.1416 * radio * radio
+	
+	Escriba "El área del círculo es: ", area
+fin
