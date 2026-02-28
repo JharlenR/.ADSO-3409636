@@ -1,0 +1,23 @@
+
+	
+	real a, b, auxiliar
+inicio	
+	Escriba " Ingrese el valor de a: "
+	Lea a
+	
+	Escriba " Ingrese el valor de b: "
+	Lea b
+	
+	Escriba " Antes del intercambio: "
+	Escriba " a = ", a
+	Escriba " b = ", b
+	
+	auxiliar <- a
+	a <- b
+	b <- auxiliar
+	
+	Escriba " Después del intercambio: "
+	Escriba " a = ", a
+	Escriba " b = ", b
+	
+fin
