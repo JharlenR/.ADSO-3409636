@@ -1,0 +1,15 @@
+Real nota1, nota2, nota3, promedio 
+cadena[30] nombre
+
+inicio 
+	escriba "ingrese el nombre del estudiante: "
+	lea nombre 
+	escriba "ingrese primera nota: "
+	lea nota1
+	escriba "ingrese segunda nota: "
+	lea nota2
+	escriba "ingrese tercera nota: "
+	lea nota3
+	promedio <- (nota1 + nota2 + nota3) / 3
+	escriba "el estudiante ", nombre, "tiene un promedio de: ",promedio 
+fin
