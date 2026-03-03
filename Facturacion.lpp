@@ -1,0 +1,28 @@
+real kilometros, total
+
+Inicio
+
+    escriba " Ingrese la cantidad de kilometros recorridos: "
+    lea kilometros
+
+    si kilometros <= 300 entonces
+        
+        total <- 100000
+        
+    sino
+        si kilometros <= 1000 entonces
+            
+            total <- 100000 + (kilometros - 300) * 1000
+            
+        sino
+            
+            total <- 100000 
+                     + (700 * 1000) 
+                     + (kilometros - 1000) * 500
+                     
+        fin si
+    fin si
+
+    escriba " El total a pagar es: ", total
+
+Fin

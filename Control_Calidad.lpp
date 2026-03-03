@@ -1,0 +1,24 @@
+ //Algoritmo Control_Calidad
+
+ Entero numero_serie
+
+ Inicio
+
+     Escriba "Digite el numero de serie: "
+     Lea numero_serie
+
+     Si (numero_serie >= 1468) Y (numero_serie <= 1568) Entonces
+         Escriba "El producto es DEFECTUOSO"
+     Sino
+         Si (numero_serie >= 7000) Y (numero_serie <= 7999) Entonces
+             Escriba "El producto es DEFECTUOSO"
+         Sino
+             Si (numero_serie >= 8883) Y (numero_serie <= 9001) Entonces
+                 Escriba "El producto es DEFECTUOSO"
+             Sino
+                 Escriba "El producto NO es defectuoso"
+             Fin Si
+         Fin Si
+     Fin Si
+
+ Fin

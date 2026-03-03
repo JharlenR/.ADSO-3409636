@@ -1,0 +1,22 @@
+real nota1, nota2, nota3, promedio
+
+Inicio
+
+    escriba "Ingrese nota 1: "
+    lea nota1
+    
+    escriba "Ingrese nota 2: "
+    lea nota2
+    
+    escriba "Ingrese nota 3: "
+    lea nota3
+    
+    promedio <- (nota1 + nota2 + nota3) / 3
+    
+    si promedio > 3.5 entonces
+        escriba "Aprobo con promedio: ", promedio
+    sino
+        escriba "Reprobo con promedio: ", promedio
+    fin si
+
+Fin
